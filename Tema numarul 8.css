@@ -1,0 +1,131 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+    body {
+      background: #6868AC;
+    }
+     h2 {
+      font-family: 'Calligraffitti', cursive;
+      color: rgb(218, 11, 11);
+      text-shadow: 5px 5px 0px #FFB650, 
+        10px 10px 0px #FFD662, 
+        15px 15px 0px #FF80BF, 
+        20px 20px 0px #EF5097, 
+        25px 25px 0px #6868AC, 
+        30px 30px 0px #90B1E0;
+    }
+    
+h1 { 
+    background: url(AccurateRegularBunting-size_restricted.gif);
+    background-size: 500px;
+    background-position: center;
+    width: 100%;
+    height: 75%;
+    text-align: center;
+    margin: 10px 0 3px 0;
+    padding: 16px 0 3px 8px;
+    font-size: 115%;
+    font-weight: bold;
+    color: #8bfacc;
+    border-bottom: 1px solid #de7c29;
+}
+.title_top { 
+    
+    background:rgb(220, 224, 157); 
+    width:20%; 
+    height:400px; 
+    float:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+.info_1 { 
+    background:rgb(236, 193, 156);
+    width:80%; 
+    height:400px; 
+    float:right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.bot_left { 
+    background:rgb(125, 188, 212); 
+    width:100%; 
+    height:100px; 
+    clear:both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-size: x-large;
+    text-align: left;
+}
+.bot_mid { 
+    background:rgb(117, 177, 201); 
+    width:100%; 
+    height:400px; 
+    clear:both;
+    font-size: large;
+    text-align: center;
+}
+.bot_right { 
+    background:rgb(117, 177, 201); 
+    width:100%; 
+    height:100px; 
+    clear:both;
+    font-size: large;
+    text-align: right;
+}
+
+span {
+    position: center;
+    font-size: 1rem;
+    letter-spacing:5px;
+    font-family: sans-serif;
+    display:table-cell;
+    margin:10px auto;
+    cursor:pointer;
+    transition:.6s;
+  }
+  span:before,
+  span:after {
+    content:attr(data-text);
+    transition:.6s;
+  }
+  span:before {
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index:-1;
+    text-shadow:
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px;
+    -webkit-mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+            mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+  }
+  span:hover {
+    transform:translate(-10px,-10px);
+  }  
+  span:hover:before {
+    text-shadow:
+     1px 1px,
+     2px 2px,
+     3px 3px,
+     4px 4px,
+     5px 5px,
+     6px 6px,
+     7px 7px,
+     8px 8px,
+     9px 9px,
+     10px 10px;
+  }
+  
+  body {
+    background:pink;
+  }
